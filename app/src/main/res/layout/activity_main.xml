@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
+        android:background="#AAAAAA"
         android:text="Test text is here." />
 
     <EditText
@@ -22,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
+        android:background="#33691E"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Input field" />
@@ -56,5 +58,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
-        android:text="ToggleButton" />
+        android:onClick="onButtonClicked"
+        android:text="To another Layout" />
 </LinearLayout>

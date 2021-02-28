@@ -28,8 +28,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:fontFamily="monospace"
         android:inputType="textPersonName"
-        android:text="textPersonName" />
+        android:text="MMMMMMMMMM" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
